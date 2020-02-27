@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    table {
+        font-family: Arial, sans-serif;
+        border-collapse: collapse;
+    }
+
+    td, th {
+        text-align: center;
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+</style>
+<body>
+<h2>Таблица</h2>
+<table id="01" style="width: 50%">
+    <tr>
+        <th>Имя</th>
+        <th>Возраст</th>
+        <th>Пол</th>
+    </tr>
+    <tr>
+        <td>Денис</td>
+        <td>24</td>
+        <td>Мужской</td>
+    </tr>
+    <tr>
+        <td>Саша</td>
+        <td>23</td>
+        <td>Мужской</td>
+    </tr>
+    <tr>
+        <td>Лена</td>
+        <td>25</td>
+        <td>Женский</td>
+    </tr>
+    <tr>
+        <td>Маша</td>
+        <td>22</td>
+        <td>Женский</td>
+    </tr>
+</table>
+<h2>Текстовое поле</h2>
+<input id="02" type="text">
+<h2>Чекбоксы</h2>
+<input id="03" name="Checkbox 1" type="checkbox" value="Чекбокс 1">
+<label for="03">Поставить галочку тут</label><br>
+<input id="04" name="Checkbox 1" type="checkbox" value="Чекбокс 2">
+<label for="04">Нет, лучше тут</label>
+<h2>Полезный выбор</h2>
+<select id="05">
+    <option value="Поле 1">Поле1</option>
+    <option value="Поле 2">Поле2</option>
+    <option value="Поле 3">Поле3</option>
+</select>
+<h2>Нажми на кнопку</h2>
+<button id="06" onclick="alert('И твоя мечта осуществится')" type="button">Получишь результат</button>
+
+<p>
+    Эта полезная страничка была создана благодаря сайту
+    <a href="https://www.w3schools.com">
+        <img height="50" src="Roflan.jpg" width="50">
+    </a>
+</p>/
+</body>
+</html>
